@@ -1,0 +1,34 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set up Roboto font */
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Style the navbar */
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Make the navbar items display inline */
+  .navbar a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+  }
+  
+  /* Add some hover effect to navbar items */
+  .navbar a:hover {
+    background-color: #555;
+  }
+  
